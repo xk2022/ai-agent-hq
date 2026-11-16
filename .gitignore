@@ -1,0 +1,22 @@
+# 憑證與本機設定不得提交；這些規則不能取代提交前檢查。
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+auth.json
+.npmrc
+.pypirc
+.codex/auth.json
+.codex/sessions/
+.codex/log/
+
+# 執行產物
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store

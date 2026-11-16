@@ -1,0 +1,11 @@
+{
+  "package": "esbuild@0.25.12",
+  "install_js_sha256": "10f6fa3644d8d23d066ff67b0ae449074e75884503546a9fedb667f1dcb9ade2",
+  "reviewed_lines": "1-289",
+  "findings": [
+    "Resolves matching optional native package and validates binary version",
+    "Writes package-local node_modules files; fallback npm install/registry download only if native optional package is missing",
+    "Root package has no preinstall/install/postinstall scripts; lockfile marks only esbuild hasInstallScript"
+  ],
+  "main_agent_execution_decision": "Allow full lifecycle npm ci offline in bwrap with all tracked files mounted read-only, no credentials, and isolated network"
+}

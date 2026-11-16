@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-11-16 09:32:30 UTC",
+  "source_url": "https://api.github.com/repos/xk2022/codex-xk-apparel-store/actions/runs?per_page=10",
+  "total_count": 7,
+  "runs": [
+    {
+      "id": 43373108942,
+      "name": "Prototype checks",
+      "head_sha": "1d4f2acad5475f4d2b8c4c16a11377fe2ffe4422",
+      "head_branch": "main",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-13T05:36:18Z",
+      "updated_at": "2026-11-13T05:36:39Z",
+      "html_url": "https://github.com/xk2022/codex-xk-apparel-store/actions/runs/43373108942",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "id": 43372292135,
+      "name": "Prototype checks",
+      "head_sha": "aea0d2058bbb45f376fbe844181f56d08d5dcb4a",
+      "head_branch": "docs/ISSUE-8-executive-reporting-20261113",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-13T05:28:54Z",
+      "updated_at": "2026-11-13T05:29:08Z",
+      "html_url": "https://github.com/xk2022/codex-xk-apparel-store/actions/runs/43372292135",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "id": 43360088546,
+      "name": "Prototype checks",
+      "head_sha": "177ef857d987441c7e6bb9ba8bb3b9dc3306305a",
+      "head_branch": "main",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-13T03:36:24Z",
+      "updated_at": "2026-11-13T03:36:36Z",
+      "html_url": "https://github.com/xk2022/codex-xk-apparel-store/actions/runs/43360088546",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "id": 43359946235,
+      "name": "Prototype checks",
+      "head_sha": "1c53f3bf2ed3ff087c06b5cf436cac9fac617500",
+      "head_branch": "codex/docs-pages-preview-verification-20261113",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-13T03:35:08Z",
+      "updated_at": "2026-11-13T03:35:23Z",
+      "html_url": "https://github.com/xk2022/codex-xk-apparel-store/actions/runs/43359946235",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "id": 43359111154,
+      "name": "Prototype checks",
+      "head_sha": "9ddcf3cbaa2dcc32b7d7eae2da366b874307467e",
+      "head_branch": "main",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-13T03:27:41Z",
+      "updated_at": "2026-11-13T03:27:59Z",
+      "html_url": "https://github.com/xk2022/codex-xk-apparel-store/actions/runs/43359111154",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "id": 43359061053,
+      "name": "pages build and deployment",
+      "head_sha": "302f9580fa6b74f153964d8834274510f5f638cc",
+      "head_branch": "gh-pages",
+      "event": "dynamic",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-13T03:27:15Z",
+      "updated_at": "2026-11-13T03:27:40Z",
+      "html_url": "https://github.com/xk2022/codex-xk-apparel-store/actions/runs/43359061053",
+      "path": "dynamic/pages/pages-build-deployment"
+    },
+    {
+      "id": 43358981495,
+      "name": "Prototype checks",
+      "head_sha": "f670bede46d2175aba36db92aef300fe9dd6b90d",
+      "head_branch": "feat/apparel-prototype-v0.1.0",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-11-13T03:26:33Z",
+      "updated_at": "2026-11-13T03:26:51Z",
+      "html_url": "https://github.com/xk2022/codex-xk-apparel-store/actions/runs/43358981495",
+      "path": ".github/workflows/ci.yml"
+    }
+  ]
+}

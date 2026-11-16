@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-16T09:45:14.557298+00:00",
+  "checks": {
+    "hq": {
+      "head_before": "2714ca7799bc646bc0a03e00e984f7ac7c6c099d",
+      "head_after": "2714ca7799bc646bc0a03e00e984f7ac7c6c099d",
+      "tracked_files_checked": 28,
+      "changed_tracked_files": [],
+      "tracked_git_status": "",
+      "all_tracked_sha256_unchanged": true
+    },
+    "source": {
+      "head_before": "1d4f2acad5475f4d2b8c4c16a11377fe2ffe4422",
+      "head_after": "1d4f2acad5475f4d2b8c4c16a11377fe2ffe4422",
+      "tracked_files_checked": 30,
+      "changed_tracked_files": [],
+      "tracked_git_status": "",
+      "all_tracked_sha256_unchanged": true
+    },
+    "test_copy": {
+      "tracked_source_files_checked": 30,
+      "changed_source_files": [],
+      "all_tracked_sha256_unchanged": true,
+      "generated_outputs": [
+        "node_modules/",
+        "dist/",
+        "review.html"
+      ]
+    }
+  },
+  "no_commits_created": true,
+  "no_push_or_deploy_performed": true
+}

@@ -1,0 +1,110 @@
+{
+  "checked_at": "2026-11-16 09:37:00 UTC",
+  "branch_source_url": "https://api.github.com/repos/xk2022/codex-xk-apparel-store/branches/gh-pages",
+  "branch": "gh-pages",
+  "sha": "302f9580fa6b74f153964d8834274510f5f638cc",
+  "historical_pages_run": "https://github.com/xk2022/codex-xk-apparel-store/actions/runs/43359061053",
+  "jobs_source_url": "https://api.github.com/repos/xk2022/codex-xk-apparel-store/actions/runs/43359061053/jobs",
+  "jobs": [
+    {
+      "id": 131667965458,
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 43359061053,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Checkout",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Upload artifact",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Post Checkout",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        }
+      ]
+    },
+    {
+      "id": 131668024239,
+      "name": "report-build-status",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 43359061053,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Report Build Status",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "id": 131668024268,
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 43359061053,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Deploy to GitHub Pages",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Historical successful Pages deployment and current gh-pages ref verified; live website availability and current Pages configuration not tested",
+    "deployments endpoint unsupported by connector; not evidence of no deployments"
+  ]
+}

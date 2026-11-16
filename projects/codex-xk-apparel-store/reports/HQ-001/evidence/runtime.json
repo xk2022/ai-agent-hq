@@ -1,0 +1,11 @@
+{
+  "node": "v24.22.1",
+  "npm": "11.9.0",
+  "installed_packages": {
+    "typescript": "5.9.3",
+    "esbuild": "0.25.12",
+    "happy-dom": "20.14.6"
+  },
+  "source_revision": "1d4f2acad5475f4d2b8c4c16a11377fe2ffe4422",
+  "hq_revision": "2714ca7799bc646bc0a03e00e984f7ac7c6c099d"
+}

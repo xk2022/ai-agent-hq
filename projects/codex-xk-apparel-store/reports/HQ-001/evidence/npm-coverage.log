@@ -1,0 +1,45 @@
+✔ offline review contains runnable classic scripts and no external styles or scripts (61.156456ms)
+✔ all nine local JPEGs are embedded byte for byte in the offline deliverable (24.194598ms)
+✔ delivered source has no remote resource or transaction client (2.298922ms)
+✔ file URL review executes embedded scripts and supports choosing a variant and adding to cart offline (286.558264ms)
+✔ cart merges duplicate SKU and rejects invalid quantities (1.267041ms)
+✔ shipping is once per order, zero for empty cart and at the free-shipping threshold (0.667111ms)
+✔ total item count cannot overflow even when zero-price lines have safe quantities (0.959096ms)
+✔ mixed cart waits for longest preorder lead time and ships once (0.573426ms)
+✔ invalid SKU and unavailable variants prevent checkout, including repeated SKU over stock (0.419353ms)
+✔ add and quantity update enforce finite stock for preorder too (0.8571ms)
+✔ guest checkout validates contact and payment details without requiring an account (0.249248ms)
+✔ order creation is atomic and never mutates input inventory (0.662485ms)
+✔ a second sequential order cannot purchase the last unit after the first order (0.289929ms)
+✔ order preserves price and variant snapshots after catalog changes (0.154015ms)
+✔ retrying an existing mock order ID does not deduct inventory again (0.247557ms)
+✔ cancellation restocks once and simulates refund without actual payment (0.477996ms)
+✔ COD remains unpaid while preparing and shipped orders cannot cancel as unshipped (0.763811ms)
+✔ cancellation with a missing SKU leaves every other SKU unchanged (0.361418ms)
+✔ every demo product and variant has stable distinct IDs and bounded stock (0.209388ms)
+✔ guest mixes stock and preorder, validates checkout, creates COD order and retains it after reload (479.168586ms)
+✔ inventory changes prevent checkout of an unavailable cart and a cart item can be removed (248.740653ms)
+✔ checkout keeps recipient and COD draft when the shopping bag quantity changes (99.639222ms)
+✔ a lowered inventory quota lets a shopper reduce an excessive cart to the available amount (80.354367ms)
+✔ successive product deep links display the requested product and keep its URL (63.579992ms)
+✔ product dialog traps keyboard focus and preserves the focused control after choosing options (68.259286ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1983.332105
+ℹ start of coverage report
+ℹ ---------------------------------------------------------------
+ℹ file         | line % | branch % | funcs % | uncovered lines
+ℹ ---------------------------------------------------------------
+ℹ dist         |        |          |         | 
+ℹ  assets      |        |          |         | 
+ℹ   catalog.js |  98.11 |   100.00 |   83.33 | 147-149
+ℹ   model.js   |  94.61 |    83.15 |   87.50 | 36-38 51-53 56-58
+ℹ ---------------------------------------------------------------
+ℹ all files    |  96.32 |    84.69 |   86.36 | 
+ℹ ---------------------------------------------------------------
+ℹ end of coverage report

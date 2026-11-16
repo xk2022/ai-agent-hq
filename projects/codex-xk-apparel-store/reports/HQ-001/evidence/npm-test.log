@@ -1,0 +1,42 @@
+
+> xk-apparel-store-prototype@0.1.0 test
+> npm run build && node --test --test-isolation=none tests/*.test.mjs
+
+
+> xk-apparel-store-prototype@0.1.0 build
+> tsc --noEmit && node build.mjs
+
+Built dist/ and self-contained review.html
+✔ offline review contains runnable classic scripts and no external styles or scripts (45.80583ms)
+✔ all nine local JPEGs are embedded byte for byte in the offline deliverable (16.989504ms)
+✔ delivered source has no remote resource or transaction client (5.872515ms)
+✔ file URL review executes embedded scripts and supports choosing a variant and adding to cart offline (250.494245ms)
+✔ cart merges duplicate SKU and rejects invalid quantities (0.68901ms)
+✔ shipping is once per order, zero for empty cart and at the free-shipping threshold (0.621144ms)
+✔ total item count cannot overflow even when zero-price lines have safe quantities (0.823088ms)
+✔ mixed cart waits for longest preorder lead time and ships once (0.490327ms)
+✔ invalid SKU and unavailable variants prevent checkout, including repeated SKU over stock (0.301626ms)
+✔ add and quantity update enforce finite stock for preorder too (0.413825ms)
+✔ guest checkout validates contact and payment details without requiring an account (0.225845ms)
+✔ order creation is atomic and never mutates input inventory (0.510978ms)
+✔ a second sequential order cannot purchase the last unit after the first order (0.204324ms)
+✔ order preserves price and variant snapshots after catalog changes (0.364728ms)
+✔ retrying an existing mock order ID does not deduct inventory again (0.232408ms)
+✔ cancellation restocks once and simulates refund without actual payment (0.241872ms)
+✔ COD remains unpaid while preparing and shipped orders cannot cancel as unshipped (0.399919ms)
+✔ cancellation with a missing SKU leaves every other SKU unchanged (0.33872ms)
+✔ every demo product and variant has stable distinct IDs and bounded stock (0.142524ms)
+✔ guest mixes stock and preorder, validates checkout, creates COD order and retains it after reload (245.66549ms)
+✔ inventory changes prevent checkout of an unavailable cart and a cart item can be removed (81.48875ms)
+✔ checkout keeps recipient and COD draft when the shopping bag quantity changes (58.121495ms)
+✔ a lowered inventory quota lets a shopper reduce an excessive cart to the available amount (113.166942ms)
+✔ successive product deep links display the requested product and keep its URL (75.085895ms)
+✔ product dialog traps keyboard focus and preserves the focused control after choosing options (39.730561ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1482.074401

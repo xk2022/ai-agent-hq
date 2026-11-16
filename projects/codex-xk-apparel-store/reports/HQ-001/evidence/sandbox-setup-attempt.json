@@ -1,0 +1,18 @@
+{
+  "phase": "prepare",
+  "command": [
+    "npm",
+    "ci",
+    "--ignore-scripts"
+  ],
+  "cwd_inside_sandbox": "/work",
+  "host_copy": "/workspace/scratch/HQ-001-1qnZaIVi/test-copy",
+  "revision": "1d4f2acad5475f4d2b8c4c16a11377fe2ffe4422",
+  "started_at": "2026-11-16T09:34:14.703507+00:00",
+  "finished_at": "2026-11-16T09:34:14.713001+00:00",
+  "exit_code": 1,
+  "tracked_files_read_only_mounts": true,
+  "network_isolated": false,
+  "environment": "allowlist only; no auth variables; user/global npm configs disabled",
+  "log": "npm-prepare.log"
+}

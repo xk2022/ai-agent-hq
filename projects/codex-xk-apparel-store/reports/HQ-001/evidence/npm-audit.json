@@ -1,0 +1,18 @@
+{
+  "phase": "audit",
+  "command": [
+    "npm",
+    "audit",
+    "--json"
+  ],
+  "cwd_inside_sandbox": "/workspace/work",
+  "host_copy": "/workspace/scratch/HQ-001-1qnZaIVi/test-copy",
+  "revision": "1d4f2acad5475f4d2b8c4c16a11377fe2ffe4422",
+  "started_at": "2026-11-16T09:35:52.749014+00:00",
+  "finished_at": "2026-11-16T09:35:53.704510+00:00",
+  "exit_code": 1,
+  "tracked_files_read_only_mounts": true,
+  "network_isolated": false,
+  "environment": "allowlist only; no auth variables; user/global npm configs disabled",
+  "log": "npm-audit.log"
+}

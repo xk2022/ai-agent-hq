@@ -1,0 +1,10 @@
+# HQ 自訂專案索引；本檔不是 Codex 設定，也不會強制執行存取權限。
+schema_version: 1
+projects:
+  - id: codex-xk-apparel-store
+    repository: https://github.com/xk2022/codex-xk-apparel-store
+    status: pending_scan
+    scan_permission: read_only
+    config_path: projects/codex-xk-apparel-store/project.yml
+    work_log: projects/codex-xk-apparel-store/work-log.md
+    initial_task: HQ-001

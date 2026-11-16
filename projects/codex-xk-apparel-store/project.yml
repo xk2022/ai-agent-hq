@@ -1,0 +1,16 @@
+# HQ 自訂管理資料；權限必須由 Main Agent 與執行環境實際落實。
+schema_version: 1
+id: codex-xk-apparel-store
+name: codex-xk-apparel-store
+repository: https://github.com/xk2022/codex-xk-apparel-store
+status: pending_scan
+scan_permission: read_only
+initial_task: HQ-001
+task_file: tasks/inbox/HQ-001.md
+work_log: projects/codex-xk-apparel-store/work-log.md
+constraints:
+  modify_managed_repository: false
+  deploy: false
+  store_api_tokens: false
+  publish_private_data_to_public_repository: false
+  high_risk_operations_require_user_confirmation: true

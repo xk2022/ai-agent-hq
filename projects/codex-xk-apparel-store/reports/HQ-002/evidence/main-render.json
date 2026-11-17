@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-11-17T02:03:32.691Z",
+  "method": "Offline marked + Chromium layout proxy; network requests aborted",
+  "limitations": [
+    "Not the real GitHub renderer or repository landing-page chrome",
+    "Not a human comprehension/timing test; 10-second criterion remains unverified"
+  ],
+  "results": [
+    {
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "items": [
+        {
+          "label": "Agent 最近完成",
+          "bottom": 283
+        },
+        {
+          "label": "最重要的風險",
+          "bottom": 313
+        },
+        {
+          "label": "Main Agent 建議〔未授權執行〕",
+          "bottom": 343
+        },
+        {
+          "label": "需要你決策",
+          "bottom": 373
+        }
+      ],
+      "horizontal_page_overflow": false,
+      "project_table_bottom": 243,
+      "all_six_answers_in_initial_viewport": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "items": [
+        {
+          "label": "Agent 最近完成",
+          "bottom": 314
+        },
+        {
+          "label": "最重要的風險",
+          "bottom": 392
+        },
+        {
+          "label": "Main Agent 建議〔未授權執行〕",
+          "bottom": 446
+        },
+        {
+          "label": "需要你決策",
+          "bottom": 524
+        }
+      ],
+      "horizontal_page_overflow": false,
+      "project_table_bottom": 250,
+      "all_six_answers_in_initial_viewport": true
+    }
+  ]
+}

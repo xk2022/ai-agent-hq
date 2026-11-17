@@ -3,10 +3,10 @@ schema_version: 1
 id: codex-xk-apparel-store
 name: codex-xk-apparel-store
 repository: https://github.com/xk2022/codex-xk-apparel-store
-status: pending_scan
+status: scan_completed
 scan_permission: read_only
 initial_task: HQ-001
-task_file: tasks/inbox/HQ-001.md
+task_file: tasks/completed/HQ-001.md
 work_log: projects/codex-xk-apparel-store/work-log.md
 constraints:
   modify_managed_repository: false

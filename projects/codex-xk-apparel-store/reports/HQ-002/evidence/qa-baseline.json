@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-11-17T01:56:39.495746+00:00",
+  "baseline_sha": "74a9a3290d6c2e198608c6c81b48c9e5091f4098",
+  "agent_tomls_checked": 14,
+  "hq001_files_checked": 30,
+  "changed_protected_files": [],
+  "scope": "Initial immutable-file comparison before Manager Mode implementation review; not a runtime delegation test"
+}

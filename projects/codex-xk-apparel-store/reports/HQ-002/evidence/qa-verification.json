@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-11-17T02:08:15.680610+00:00",
+  "hq_base_sha": "74a9a3290d6c2e198608c6c81b48c9e5091f4098",
+  "method": "Temporary Python stdlib + existing PyYAML checker and manual document-scenario review; no new dependencies, npm or product tests",
+  "markdown_files_checked": [
+    "README.md",
+    "MANAGER-MODE.md",
+    "docs/PROJECT_HEALTH_AND_RISK.md",
+    "templates/EXECUTIVE_SUMMARY.md",
+    "projects/codex-xk-apparel-store/executive-summary.md",
+    "projects/codex-xk-apparel-store/reports/HQ-002/architecture-plan.md",
+    "projects/codex-xk-apparel-store/reports/HQ-002/main-report.md",
+    "projects/codex-xk-apparel-store/reports/HQ-002/qa-report.md",
+    "projects/codex-xk-apparel-store/reports/HQ-002/security-review.md",
+    "tasks/completed/HQ-001.md",
+    "tasks/in-progress/HQ-002.md",
+    "projects/codex-xk-apparel-store/work-log.md",
+    "decisions/0002-manager-mode.md",
+    "logs/2026-11-17-manager-mode.md"
+  ],
+  "relative_links_and_anchors_checked": 165,
+  "broken_links": [],
+  "checks": {
+    "summary_frontmatter_and_eight_sections": "passed",
+    "source_snapshot_numbers_and_scope": "passed",
+    "health_and_approval_axes": "passed",
+    "registry_project_task_consistency": "passed",
+    "relative_links_and_heading_anchors": "passed",
+    "immutable_hq001_and_agent_files": "passed",
+    "existing_dispatch_instructions_and_templates": "passed"
+  },
+  "source_snapshot": {
+    "source_revision": "1d4f2acad5475f4d2b8c4c16a11377fe2ffe4422",
+    "evidence_as_of": "2026-11-16",
+    "tests_passed": 25,
+    "tests_failed": 0,
+    "high_dependency_packages": 1,
+    "advisories": 2,
+    "vulnerable_package": "happy-dom@20.14.6",
+    "line_coverage": 96.32,
+    "coverage_scope": [
+      "dist/assets/catalog.js",
+      "dist/assets/model.js"
+    ],
+    "app_coverage_measured": false
+  },
+  "protected_files": {
+    "agent_tomls": 14,
+    "hq001_files": 30,
+    "changed": []
+  },
+  "manual_document_scenarios": {
+    "health_classes_reviewed": 5,
+    "positive_and_counterexample_scenarios": 8,
+    "status": "passed as document semantics; no classifier engine exists"
+  },
+  "render_proxy": {
+    "method": "Offline marked + Chromium layout proxy; network requests aborted",
+    "screenshots_viewed_by_qa": [
+      "main-desktop.png",
+      "main-mobile.png"
+    ],
+    "viewports": [
+      {
+        "width": 1280,
+        "height": 900
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "result": "six answers present in first local proxy viewport, no horizontal page overflow",
+    "limitations": [
+      "Not the real GitHub renderer or repository landing-page chrome",
+      "Not a human comprehension/timing test; 10-second criterion remains unverified"
+    ]
+  },
+  "human_10_second_test": {
+    "status": "not_executed",
+    "minimum_participants": "one actual target manager including owner; additional participants optional",
+    "task_state": "awaiting_review"
+  },
+  "limitations": [
+    "No current product revision or dependency audit rerun",
+    "No real GitHub page or human comprehension timing test",
+    "No native agent runtime re-execution",
+    "Public-content security review is reported separately by Security"
+  ],
+  "qa_outcome": "Data and document acceptance passed; full human acceptance pending"
+}

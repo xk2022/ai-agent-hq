@@ -3,7 +3,7 @@ schema_version: 1
 projects:
   - id: codex-xk-apparel-store
     repository: https://github.com/xk2022/codex-xk-apparel-store
-    status: pending_scan
+    status: scan_completed
     scan_permission: read_only
     config_path: projects/codex-xk-apparel-store/project.yml
     work_log: projects/codex-xk-apparel-store/work-log.md

@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-17T02:03:31.240821+00:00",
+  "baseline_commit": "74a9a3290d6c2e198608c6c81b48c9e5091f4098",
+  "scope": "Current HQ diff and new public-safe management files; historical HQ-001 and Agent configuration integrity",
+  "inspected_files": [
+    "MANAGER-MODE.md",
+    "README.md",
+    "decisions/0002-manager-mode.md",
+    "docs/PROJECT_HEALTH_AND_RISK.md",
+    "logs/2026-11-17-manager-mode.md",
+    "projects/codex-xk-apparel-store/executive-summary.md",
+    "projects/codex-xk-apparel-store/project.yml",
+    "projects/codex-xk-apparel-store/reports/HQ-002/architecture-plan.md",
+    "projects/codex-xk-apparel-store/reports/HQ-002/evidence/qa-baseline.json",
+    "projects/codex-xk-apparel-store/reports/HQ-002/evidence/security-baseline.json",
+    "projects/codex-xk-apparel-store/reports/HQ-002/main-report.md",
+    "projects/codex-xk-apparel-store/reports/HQ-002/qa-report.md",
+    "projects/codex-xk-apparel-store/reports/HQ-002/security-review.md",
+    "projects/codex-xk-apparel-store/work-log.md",
+    "projects/registry.yml",
+    "tasks/completed/HQ-001.md",
+    "tasks/in-progress/HQ-002.md",
+    "templates/EXECUTIVE_SUMMARY.md"
+  ],
+  "scope_violations": [],
+  "pattern_findings": [],
+  "protected_files_checked": 44,
+  "protected_files_changed": [],
+  "protected_diff_empty": true,
+  "managed_source_check": {
+    "available": true,
+    "revision": "1d4f2acad5475f4d2b8c4c16a11377fe2ffe4422",
+    "tracked_status": ""
+  },
+  "limitations": [
+    "Pattern checks are not a complete personal-data or Git history secret audit",
+    "No website deployment, credential validation or active security attack performed"
+  ]
+}
